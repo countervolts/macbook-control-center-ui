@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -191,7 +196,7 @@ Frame6_2.Parent = Frame
 Frame6_2.BackgroundColor3 = Color3.fromRGB(45, 43, 52)
 Frame6_2.BackgroundTransparency = 0.300
 Frame6_2.Position = UDim2.new(0.0610169508, 0, 0.740053058, 0)
-Frame6_2.Size = UDim2.new(0, 255, 0, 55)
+Frame6_2.Size = UDim2.new(0, 258, 0, 55)
 
 UICorner_8.Parent = Frame6_2
 
@@ -208,7 +213,7 @@ SpotifyIntegrationBF71.TextSize = 16.000
 
 -- Scripts:
 
-local function JEEBDL_fake_script() -- Frame.LocalScript 
+local function KARDKH_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService('UserInputService')
@@ -276,4 +281,4 @@ local function JEEBDL_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JEEBDL_fake_script)()
+coroutine.wrap(KARDKH_fake_script)()
